@@ -12,23 +12,18 @@ import gprof2dot
 import flake8
 
 
-
-
-
-
+@profile
 def multiplication(a):
     result = a*4
     print(result)
 
 
-
+@profile
 def addition():
     result = 3+4
     print(result)
 
 
 
-multiplication()
-addition()
-multiplication()
+multiplication(3)
 addition()
