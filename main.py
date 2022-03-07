@@ -439,7 +439,7 @@ def main():
             with open("yo.txt", 'rb') as f:
                 s = f.read()
 
-            download_button_str = download_button(s, "yo.txt",
+            download_button_str = download_button(s, "memory_profiler_output.txt",
                                                       'Download: 03 Code Memory Optimization - test2 function 1 & 2 - output')
             st.markdown(download_button_str, unsafe_allow_html=True)
 
